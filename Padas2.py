@@ -14,22 +14,22 @@ print("Toàn bộ dữ liệu:")
 print(df_students)
 
 # 3 dòng đầu tiên
-print("\n3 dòng đầu tiên:")
+print("3 dòng đầu tiên:")
 print(df_students.head(3))
 
 # Index = 2 và cột Name
-print("\nIndex = 2, cột Name:")
+print("Index = 2, cột Name:")
 print(df_students.loc[2, 'Name'])
 
 # Index = 10 và cột Age
-print("\nIndex = 10, cột Age:")
+print("Index = 10, cột Age:")
 if 10 in df_students.index:
     print(df_students.loc[10, 'Age'])
 else:
     print("Index 10 không tồn tại trong DataFrame.")
 
 # Cột Name và Score
-print("\nCác cột Name và Score:")
+print("Các cột Name và Score:")
 print(df_students[['Name', 'Score']])
 
 # Thêm cột Pass
@@ -37,5 +37,5 @@ df_students['Pass'] = df_students['Score'] >= 5
 
 # Sắp xếp theo Score giảm dần
 df_sorted = df_students.sort_values(by='Score', ascending=False)
-print("\nDữ liệu sau khi sắp xếp theo Score giảm dần:")
+print("Dữ liệu sau khi sắp xếp theo Score giảm dần:")
 print(df_sorted)
