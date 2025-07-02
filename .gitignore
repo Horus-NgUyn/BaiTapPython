@@ -17,3 +17,6 @@ Selenium1.xlsx
 invoice_data.xlsx
 input.xlsx
 output_information_invoice.xlsx
+
+# Loại trừ file chứa mã tra cứu thật
+invoice_codes.txt
