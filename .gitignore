@@ -1,42 +1,19 @@
-# Loại trừ file PDF, XML đã tải về (yêu cầu bảo mật)
+# Tuân thủ yêu cầu bảo mật: không commit file PDF/XML đã tải về
 *.pdf
 *.xml
-*.PDF
-*.XML
-
-# Loại trừ thư mục Downloads
-Downloads/
-InvoiceMisa/
-
-# Loại trừ file log có thể chứa thông tin nhạy cảm
+downloads/
 *.log
 
-# Loại trừ file cache Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
 
-# Loại trừ file môi trường ảo
-venv/
-env/
-.env
+# Loại trừ thư mục Downloads
+InvoiceMisa/
+Download_Invoice_Folder/
+InvoiceFPT/
 
-# Loại trừ file IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Loại trừ file hệ thống
-.DS_Store
-Thumbs.db
-
-# Loại trừ file Selenium
-chromedriver.exe
-geckodriver.exe
-*.exe
 
 # Loại trừ file Excel có thể chứa mã hóa đơn thật
 ThongTinDoanhNghiep.xlsx
 Selenium1.xlsx 
+invoice_data.xlsx
+input.xlsx
+output_information_invoice.xlsx
